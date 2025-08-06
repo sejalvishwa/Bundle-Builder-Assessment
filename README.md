@@ -93,7 +93,8 @@ Recreate the "Bundle Builder" section as per the [Figma design], focusing on:
 1. Provided:
    - My **GitHub repository** link:  
      `https://github.com/sejalvishwa/Bundle-Builder-Assessment`
-   - My **Live hosted link** (via Live Server, Vercel, Netlify, etc.)
+   - My **Live hosted link** 
+     `https://bundle-builder-project.netlify.app/`
 
 ---
 
