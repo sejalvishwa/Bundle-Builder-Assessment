@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bundle Builder UI</title>
+  </head>
+
+  <body>
+    <div class="heading">
+      <h2>Buy 3 and Save 30%</h2>
+    </div>
+
+    <div class="container">
+      <div class="products">
+        <!-- product-1 -->
+        <div class="product-card">
+          <img src="./assets/product-1.jpg" alt="product-1" />
+          <h4>Tie-Dye Lounge Set</h4>
+          <p>$150.00</p>
+          <div
+            class="add-btn"
+            data-price="150"
+            data-heading="Tie-Dye Lounge Set"
+            data-image="./assets/product-1.jpg"
+          >
+            <p>Add to Bundle</p>
+            <img src="./assets/icons/plus.svg" alt="plus-icon" />
+          </div>
+        </div>
+        <!-- product-2 -->
+        <div class="product-card">
+          <img src="./assets/product-2.jpg" alt="product-2" />
+          <h4>Sunburst Tracksuit</h4>
+          <p>$150.00</p>
+          <div
+            class="add-btn"
+            data-price="150"
+            data-heading="Sunburst Tracksuit"
+            data-image="./assets/product-2.jpg"
+          >
+            <p>Add to Bundle</p>
+            <img src="./assets/icons/plus.svg" alt="plus-icon" />
+          </div>
+        </div>
+        <!-- product-3 -->
+        <div class="product-card">
+          <img src="./assets/product-3.jpg" alt="product-3" />
+          <h4>Retro Red Streetwear</h4>
+          <p>$150.00</p>
+          <div
+            class="add-btn"
+            data-price="150"
+            data-heading="Retro Red Streetwear"
+            data-image="./assets/product-3.jpg"
+          >
+            <p>Add to Bundle</p>
+            <img src="./assets/icons/plus.svg" alt="plus-icon" />
+          </div>
+        </div>
+        <!-- product-4 -->
+        <div class="product-card">
+          <img src="./assets/product-4.jpg" alt="product-4" />
+          <h4>Urban Sportwear Combo</h4>
+          <p>$150.00</p>
+          <div
+            class="add-btn"
+            data-price="150"
+            data-heading="Urban Sportwear Combo"
+            data-image="./assets/product-4.jpg"
+          >
+            <p>Add to Bundle</p>
+            <img src="./assets/icons/plus.svg" alt="plus-icon" />
+          </div>
+        </div>
+        <!-- product-5 -->
+        <div class="product-card">
+          <img src="./assets/product-5.jpg" alt="product-5" />
+          <h4>Oversized Knit & Coat</h4>
+          <p>$150.00</p>
+          <div
+            class="add-btn"
+            data-price="150"
+            data-heading="Oversized Knit & Coat"
+            data-image="./assets/product-5.jpg"
+          >
+            <p>Add to Bundle</p>
+            <img src="./assets/icons/plus.svg" alt="plus-icon" />
+          </div>
+        </div>
+        <!-- product-6 -->
+        <div class="product-card">
+          <img src="./assets/product-6.jpg" alt="product-6" />
+          <h4>Chic Monochrome Blazer</h4>
+          <p>$150.00</p>
+          <div
+            class="add-btn"
+            data-price="150"
+            data-heading="Chic Monochrome Blazer"
+            data-image="./assets/product-6.jpg"
+          >
+            <p>Add to Bundle</p>
+            <img src="./assets/icons/plus.svg" alt="plus-icon" />
+          </div>
+        </div>
+      </div>
+
+      <!-- sidebar -->
+
+      <div class="sidebar">
+        <h2>Create a Bundle</h2>
+        <p>
+          Add at <span style="font-weight: bold">least 3</span> products and
+          <span style="font-weight: bold">Save 30%.</span>
+        </p>
+        <!-- Item container -->
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+        <!-- sidebar items bundle -->
+        <div id="cart-bundle-id" class="placeholder-wrapper">
+          <div class="bundle-placeholder">
+            <div class="placeholder-image"></div>
+            <div class="placeholder-text"></div>
+          </div>
+          <div class="bundle-placeholder">
+            <div class="placeholder-image"></div>
+            <div class="placeholder-text"></div>
+          </div>
+          <div class="bundle-placeholder">
+            <div class="placeholder-image"></div>
+            <div class="placeholder-text"></div>
+          </div>
+        </div>
+
+        <!-- Discount -->
+
+        <hr style="border: none; height: 1px; background-color: #ebebeb" />
+        <div class="discount-container">
+          <p>Discount</p>
+          <p>- $<span id="discount-value">0.00</span></p>
+        </div>
+        <hr style="border: none; height: 1px; background-color: #ebebeb" />
+        <!-- Subtotal -->
+        <div class="subtotal-container">
+          <p>Subtotal</p>
+          <p>$<span id="subtotal-value">0.00</span></p>
+        </div>
+        <!-- Cart button -->
+        <div class="cart-btn">
+          <p>Add 3 items to Proceed</p>
+          <img src="./assets/icons/caret-right.svg" alt="cavret-icon" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
